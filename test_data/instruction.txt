@@ -1,0 +1,3 @@
+test_x.npy: test set data.
+test_x_q.npy: quantized test_x.
+test_y.npy: test labels.

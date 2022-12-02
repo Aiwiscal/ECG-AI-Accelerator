@@ -7,8 +7,8 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 import time
 
 if __name__ == '__main__':
-    test_x = np.load("../test_data/test_x_3.npy")
-    test_y = np.load("../test_data/test_y_3.npy")
+    test_x = np.load("../test_data/test_x.npy")
+    test_y = np.load("../test_data/test_y.npy")
 
     model = keras.models.load_model("../model_files/1d_cnn.h5")
     model.summary()

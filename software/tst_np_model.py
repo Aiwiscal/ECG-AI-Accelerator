@@ -9,8 +9,8 @@ from tqdm import tqdm
 if __name__ == '__main__':
     model = QMyFuseModel("../model_files/1d_cnn_q/")
 
-    test_x = np.load("../test_data/test_x_3_q.npy")
-    test_y = np.load("../test_data/test_y_3.npy")
+    test_x = np.load("../test_data/test_x_q.npy")
+    test_y = np.load("../test_data/test_y.npy")
     test_y_list_ = list()
 
     for i in tqdm(range(test_x.shape[0])):
