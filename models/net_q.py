@@ -4,6 +4,8 @@ import numpy as np
 import models.layers as layers
 
 
+# implement the quantized 1D-CNN in software.
+
 def rescale_data_2d(data, shift_bits, upper_bound):
     data_rescale = np.zeros_like(data)
     for i in range(data.shape[0]):

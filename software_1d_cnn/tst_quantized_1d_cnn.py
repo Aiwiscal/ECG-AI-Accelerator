@@ -5,6 +5,8 @@ from models.net_q import QMyFuseModel
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 from tqdm import tqdm
 
+# This script should be only used for quantized performance evaluation!
+# To test the inference speed, please use tst_keras_1d_cnn.py!
 
 if __name__ == '__main__':
     model = QMyFuseModel("../model_files/1d_cnn_q/")
