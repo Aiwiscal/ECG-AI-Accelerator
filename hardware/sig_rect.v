@@ -21,7 +21,7 @@ begin
 	if(!rst_n)
 		result <= 9'd0;
 	else
-		result <= temp; // 严格来说要扩展符号位！
+		result <= temp;
 end
 
 endmodule
